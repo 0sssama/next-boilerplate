@@ -3,7 +3,7 @@ import "../styles/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import * as React from "react";
-import { RecoilRoot } from "recoil";
+import RecoilProvider from "@/components/recoil-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,16 +20,16 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <RecoilRoot>
+        <RecoilProvider>
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
+            defaultTheme="light"
             enableSystem
             disableTransitionOnChange
           >
             {children}
           </ThemeProvider>
-        </RecoilRoot>
+        </RecoilProvider>
       </body>
     </html>
   );
