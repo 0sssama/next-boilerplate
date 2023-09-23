@@ -10,6 +10,7 @@ import NprogressProvider from "@/providers/nprogress-provider";
 
 import "../styles/globals.css";
 import ToastProvider from "@/providers/sonner-provider";
+import TRPCProvider from "@/providers/trpc-provider";
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -29,20 +30,22 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={plusJakarta.className}>
-        <RecoilProvider>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="light"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <ClerkProvider>
-              <NprogressProvider>
-                <ToastProvider>{children}</ToastProvider>
-              </NprogressProvider>
-            </ClerkProvider>
-          </ThemeProvider>
-        </RecoilProvider>
+        <TRPCProvider>
+          <RecoilProvider>
+            <ThemeProvider
+              attribute="class"
+              defaultTheme="light"
+              enableSystem
+              disableTransitionOnChange
+            >
+              <ClerkProvider>
+                <NprogressProvider>
+                  <ToastProvider>{children}</ToastProvider>
+                </NprogressProvider>
+              </ClerkProvider>
+            </ThemeProvider>
+          </RecoilProvider>
+        </TRPCProvider>
       </body>
     </html>
   );
