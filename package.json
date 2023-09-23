@@ -14,7 +14,9 @@
   },
   "author": "Oussama Labrahmi <oussama@labrahmi.me>",
   "dependencies": {
+    "@clerk/nextjs": "^4.24.1",
     "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-switch": "^1.0.3",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
