@@ -9,10 +9,10 @@ This is a cool boilerplate for Next.js projects. It includes setup for the follo
 ## DX
 
 - [x] [TypeScript](https://www.typescriptlang.org/)
+- [x] [Bun](https://bun.sh/)
 - [x] [ESLint](https://eslint.org/)
 - [x] [Prettier](https://prettier.io/)
-- [x] [Husky](https://typicode.github.io/husky/)
-- [x] [Bun](https://bun.sh/)
+- [ ] [Husky](https://typicode.github.io/husky/)
 
 ## Backend (sort of)
 
