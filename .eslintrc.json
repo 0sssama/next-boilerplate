@@ -14,7 +14,7 @@
     "prettier",
     "plugin:react/jsx-runtime"
   ],
-  "plugins": ["prettier", "react-hooks", "@typescript-eslint"],
+  "plugins": ["prettier", "@typescript-eslint"],
   "settings": {
     "react": {
       "version": "detect"

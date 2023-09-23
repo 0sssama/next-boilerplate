@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pretest": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix"
   },
   "repository": {
     "type": "git",
@@ -65,5 +66,17 @@
     "husky": "^8.0.3",
     "prettier": "^3.0.3",
     "prisma": "^5.3.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx,js,jsx}": [
+      "./node_modules/.bin/prettier —-write",
+      "./node_modules/.bin/eslint —-fix",
+      "git add"
+    ]
   }
 }

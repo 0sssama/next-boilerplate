@@ -6,9 +6,9 @@ export const greetingRouter = createTRPCRouter({
     .input(
       z.object({
         name: z.string(),
-      })
+      }),
     )
-    .query(({ ctx, input }) => {
+    .query(({ input }) => {
       return {
         greeting: `Hello there, ${input.name}!`,
       };
