@@ -9,8 +9,9 @@ import RecoilProvider from "@/providers/recoil-provider";
 import NprogressProvider from "@/providers/nprogress-provider";
 
 import "../styles/globals.css";
+import ToastProvider from "@/providers/sonner-provider";
 
-const inter = Plus_Jakarta_Sans({
+const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800"],
 });
@@ -27,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={plusJakarta.className}>
         <RecoilProvider>
           <ThemeProvider
             attribute="class"
@@ -36,7 +37,9 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <ClerkProvider>
-              <NprogressProvider>{children}</NprogressProvider>
+              <NprogressProvider>
+                <ToastProvider>{children}</ToastProvider>
+              </NprogressProvider>
             </ClerkProvider>
           </ThemeProvider>
         </RecoilProvider>
