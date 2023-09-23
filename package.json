@@ -1,5 +1,5 @@
 {
-  "name": "ecpp-admin",
+  "name": "next-boilerplate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/0sssama/auto-ecole-admin.git"
+    "url": "https://github.com/0sssama/next-boilerplate.git"
   },
   "author": "Oussama Labrahmi <oussama@labrahmi.me>",
   "dependencies": {

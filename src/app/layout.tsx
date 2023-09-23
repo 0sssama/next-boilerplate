@@ -17,8 +17,8 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "ECPP Tanger",
-  description: "Bienvenu à l'école de conduite planète permis!",
+  title: "NEXT BOILERPLATE",
+  description: "NEXTJS INSANE BOILERPLATE",
 };
 
 export default function RootLayout({
