@@ -4,13 +4,15 @@ import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Plus_Jakarta_Sans } from "next/font/google";
 
-import { ThemeProvider } from "@/providers/theme-provider";
-import RecoilProvider from "@/providers/recoil-provider";
-import NprogressProvider from "@/providers/nprogress-provider";
+import {
+  ThemeProvider,
+  RecoilProvider,
+  NprogressProvider,
+  ToastProvider,
+  TRPCProvider,
+} from "@/providers";
 
 import "../styles/globals.css";
-import ToastProvider from "@/providers/sonner-provider";
-import TRPCProvider from "@/providers/trpc-provider";
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],

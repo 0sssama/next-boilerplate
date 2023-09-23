@@ -16,15 +16,15 @@ This is a cool boilerplate for Next.js projects. It includes setup for the follo
 
 ## Backend (sort of)
 
-- [ ] [TRPC](https://trpc.io/)
+- [x] [TRPC](https://trpc.io/)
 - [x] [Clerk](https://clerk.dev/)
 - [ ] [Prisma](https://www.prisma.io/)
 - [ ] [PlanetScale](https://planetscale.com/)
 
 ## Back-front integration
 
-- [ ] [React Query](https://react-query.tanstack.com/)
-- [ ] [Zod](https://zod.dev/)
+- [x] [React Query](https://react-query.tanstack.com/)
+- [x] [Zod](https://zod.dev/)
 - [ ] [React Hook Form](https://react-hook-form.com/)
 
 ## UI
@@ -34,4 +34,5 @@ This is a cool boilerplate for Next.js projects. It includes setup for the follo
 - [x] [Sonner](https://sonner.emilkowal.ski/)
 - [x] [NProgress](https://ricostacruz.com/nprogress/)
 - [x] [Recoil](https://recoiljs.org/)
-- [ ] [Moment.js](https://momentjs.com/)
+- [x] [Moment.js](https://momentjs.com/)
+- [x] [React Icons](https://react-icons.github.io/react-icons/)
