@@ -12,7 +12,7 @@ This is a cool boilerplate for Next.js projects. It includes setup for the follo
 - [x] [Bun](https://bun.sh/)
 - [x] [ESLint](https://eslint.org/)
 - [x] [Prettier](https://prettier.io/)
-- [ ] [Husky](https://typicode.github.io/husky/)
+- [x] [Husky](https://typicode.github.io/husky/)
 
 ## Backend (sort of)
 
@@ -25,7 +25,7 @@ This is a cool boilerplate for Next.js projects. It includes setup for the follo
 
 - [x] [React Query](https://react-query.tanstack.com/)
 - [x] [Zod](https://zod.dev/)
-- [ ] [React Hook Form](https://react-hook-form.com/)
+- [x] [React Hook Form](https://react-hook-form.com/)
 
 ## UI
 
