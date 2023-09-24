@@ -20,6 +20,7 @@ This is a cool boilerplate for Next.js projects. It includes setup for the follo
 - [x] [Clerk](https://clerk.dev/)
 - [x] [Prisma](https://www.prisma.io/)
 - [x] [PlanetScale](https://planetscale.com/)
+- [ ] [Uploadthing](https://uploadthing.com/) - not yet implemented..
 
 ## Back-front integration
 
@@ -60,9 +61,15 @@ Do I have to tell you how?
 - Copy the `DATABASE_URL` variable and paste it into `.env.local`
 - run `bunx prisma db push` to push the state of `schema.prisma` to the database
 
+<!-- ## Create Uploadthing App
+
+- Visit [Uploadthing](https://uploadthing.com/) and create an account
+- Create a new app
+- Copy the `UPLOADTHING_SECRET` and `UPLOADTHING_APP_ID` variables and paste them into `.env.local` -->
+
 ## More env variables
 
-Along with your Clerk and Database env variables, you will need to add the following:
+Along with your Clerk, Uploadthing, and Database env variables, you will need to add the following:
 
 ```
 /* nothing for now, might change later */
