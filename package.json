@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "postinstall": "prisma generate",
+    "postinstall": "prisma generate && husky install",
     "studio": "prisma studio",
     "build": "next build",
     "start": "next start",
@@ -43,7 +43,6 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.46.2",
-    "react-icons": "^4.11.0",
     "recoil": "^0.7.7",
     "sonner": "^1.0.3",
     "superjson": "^1.13.1",
