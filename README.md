@@ -36,7 +36,7 @@ This is a cool boilerplate for Next.js projects. It includes setup for the follo
 - [x] [NProgress](https://ricostacruz.com/nprogress/)
 - [x] [Recoil](https://recoiljs.org/)
 - [x] [Moment.js](https://momentjs.com/) (for now, might be replaced with [Date-fns](https://date-fns.org/))
-- [x] [React Icons](https://react-icons.github.io/react-icons/)
+- [x] [Lucide Icons](https://lucide.dev/)
 
 # How to start
 
